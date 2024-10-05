@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+body {
+    font-family: 'Lato', sans-serif;
+    margin: 20px;
+    background-color: rgb(96, 96, 96);
+    
+}
+h1 {
+    color: rgb(255, 255, 255);
+    margin-top: 50px;
+    text-align: center;
+}
+
+#transactions {
+    margin-top: 20px;
+}
+
+#ranking {
+    width: 38%;  /* Tamanho do ranking */
+    /* border: 1px solid black; */
+    padding:  5%;
+    background-color: #e9e9e9;
+    margin-top: 5%;
+}
+
+#ranking > div > strong:nth-child(3){
+    color: gold;
+}
+
+#ranking > h1, #ranking > h2{
+    text-align: center;
+    margin-top: 0px;
+    color: black;
+}
+
+
+.transactions {
+    background-color: white;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-top: 50px;
+    display:flexbox;
+    width: 100%;
+    
+}
+
+.container {
+    display: flex;  /* Habilita o Flexbox */
+    justify-content: space-between; /* Garante espaçamento entre as divs */
+    align-items: flex-start; 
+    margin-top: 20px;
+}
+
+#botao{
+    width: 70px;
+    height: 40px;
+    border-radius: 8px;
+}
+
+
